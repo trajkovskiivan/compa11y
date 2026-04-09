@@ -1,6 +1,6 @@
 {
   "name": "@compa11y/web",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Accessible Web Components for any HTML page - CDN ready",
   "author": "Ivan Trajkovski",
   "license": "MIT",
@@ -26,101 +26,173 @@
       "import": "./dist/compa11y.js",
       "require": "./dist/compa11y.umd.cjs"
     },
-    "./dialog": {
-      "types": "./dist/components/dialog.d.ts",
-      "import": "./dist/components/dialog.js"
-    },
-    "./menu": {
-      "types": "./dist/components/menu.d.ts",
-      "import": "./dist/components/menu.js"
-    },
-    "./tabs": {
-      "types": "./dist/components/tabs.d.ts",
-      "import": "./dist/components/tabs.js"
-    },
-    "./combobox": {
-      "types": "./dist/components/combobox.d.ts",
-      "import": "./dist/components/combobox.js"
-    },
-    "./switch": {
-      "types": "./dist/components/switch.d.ts",
-      "import": "./dist/components/switch.js"
-    },
-    "./checkbox": {
-      "types": "./dist/components/checkbox.d.ts",
-      "import": "./dist/components/checkbox.js"
-    },
-    "./select": {
-      "types": "./dist/components/select.d.ts",
-      "import": "./dist/components/select.js"
-    },
-    "./input": {
-      "types": "./dist/components/input.d.ts",
-      "import": "./dist/components/input.js"
-    },
-    "./textarea": {
-      "types": "./dist/components/textarea.d.ts",
-      "import": "./dist/components/textarea.js"
-    },
-    "./button": {
-      "types": "./dist/components/button.d.ts",
-      "import": "./dist/components/button.js"
-    },
-    "./radio-group": {
-      "types": "./dist/components/radio-group.d.ts",
-      "import": "./dist/components/radio-group.js"
-    },
-    "./listbox": {
-      "types": "./dist/components/listbox.d.ts",
-      "import": "./dist/components/listbox.js"
-    },
-    "./toast": {
-      "types": "./dist/components/toast.d.ts",
-      "import": "./dist/components/toast.js"
-    },
-    "./visually-hidden": {
-      "types": "./dist/components/visually-hidden.d.ts",
-      "import": "./dist/components/visually-hidden.js"
-    },
-    "./skip-link": {
-      "types": "./dist/components/skip-link.d.ts",
-      "import": "./dist/components/skip-link.js"
+    "./accordion": {
+      "types": "./dist/components/accordion.d.ts",
+      "import": "./dist/components/accordion.js"
     },
     "./alert": {
       "types": "./dist/components/alert.d.ts",
       "import": "./dist/components/alert.js"
     },
-    "./link": {
-      "types": "./dist/components/link.d.ts",
-      "import": "./dist/components/link.js"
+    "./breadcrumbs": {
+      "types": "./dist/components/breadcrumbs.d.ts",
+      "import": "./dist/components/breadcrumbs.js"
     },
-    "./text": {
-      "types": "./dist/components/text.d.ts",
-      "import": "./dist/components/text.js"
+    "./button": {
+      "types": "./dist/components/button.d.ts",
+      "import": "./dist/components/button.js"
     },
-    "./popover": {
-      "types": "./dist/components/popover.d.ts",
-      "import": "./dist/components/popover.js"
+    "./carousel": {
+      "types": "./dist/components/carousel.d.ts",
+      "import": "./dist/components/carousel.js"
     },
-    "./accordion": {
-      "types": "./dist/components/accordion.d.ts",
-      "import": "./dist/components/accordion.js"
+    "./checkbox": {
+      "types": "./dist/components/checkbox.d.ts",
+      "import": "./dist/components/checkbox.js"
     },
-    "./table": {
-      "types": "./dist/components/table.d.ts",
-      "import": "./dist/components/table.js"
+    "./combobox": {
+      "types": "./dist/components/combobox.d.ts",
+      "import": "./dist/components/combobox.js"
+    },
+    "./command-palette": {
+      "types": "./dist/components/command-palette.d.ts",
+      "import": "./dist/components/command-palette.js"
+    },
+    "./data-grid": {
+      "types": "./dist/components/data-grid.d.ts",
+      "import": "./dist/components/data-grid.js"
+    },
+    "./date-picker": {
+      "types": "./dist/components/date-picker.d.ts",
+      "import": "./dist/components/date-picker.js"
+    },
+    "./dialog": {
+      "types": "./dist/components/dialog.d.ts",
+      "import": "./dist/components/dialog.js"
+    },
+    "./drawer": {
+      "types": "./dist/components/drawer.d.ts",
+      "import": "./dist/components/drawer.js"
+    },
+    "./empty-state": {
+      "types": "./dist/components/empty-state.d.ts",
+      "import": "./dist/components/empty-state.js"
+    },
+    "./error-summary": {
+      "types": "./dist/components/error-summary.d.ts",
+      "import": "./dist/components/error-summary.js"
+    },
+    "./file-upload": {
+      "types": "./dist/components/file-upload.d.ts",
+      "import": "./dist/components/file-upload.js"
     },
     "./form-field": {
       "types": "./dist/components/form-field.d.ts",
       "import": "./dist/components/form-field.js"
     },
+    "./input": {
+      "types": "./dist/components/input.d.ts",
+      "import": "./dist/components/input.js"
+    },
+    "./link": {
+      "types": "./dist/components/link.d.ts",
+      "import": "./dist/components/link.js"
+    },
+    "./listbox": {
+      "types": "./dist/components/listbox.d.ts",
+      "import": "./dist/components/listbox.js"
+    },
+    "./menu": {
+      "types": "./dist/components/menu.d.ts",
+      "import": "./dist/components/menu.js"
+    },
+    "./number-field": {
+      "types": "./dist/components/number-field.d.ts",
+      "import": "./dist/components/number-field.js"
+    },
     "./pagination": {
       "types": "./dist/components/pagination.d.ts",
       "import": "./dist/components/pagination.js"
     },
-    "./breadcrumbs": {
-      "types": "./dist/components/breadcrumbs.d.ts",
-      "import": "./dist/components/breadcrumbs.js"
+    "./popover": {
+      "types": "./dist/components/popover.d.ts",
+      "import": "./dist/components/popover.js"
+    },
+    "./progress-bar": {
+      "types": "./dist/components/progress-bar.d.ts",
+      "import": "./dist/components/progress-bar.js"
+    },
+    "./radio-group": {
+      "types": "./dist/components/radio-group.d.ts",
+      "import": "./dist/components/radio-group.js"
+    },
+    "./rich-text-editor": {
+      "types": "./dist/components/rich-text-editor.d.ts",
+      "import": "./dist/components/rich-text-editor.js"
+    },
+    "./search-field": {
+      "types": "./dist/components/search-field.d.ts",
+      "import": "./dist/components/search-field.js"
+    },
+    "./select": {
+      "types": "./dist/components/select.d.ts",
+      "import": "./dist/components/select.js"
+    },
+    "./skeleton": {
+      "types": "./dist/components/skeleton.d.ts",
+      "import": "./dist/components/skeleton.js"
+    },
+    "./skip-link": {
+      "types": "./dist/components/skip-link.d.ts",
+      "import": "./dist/components/skip-link.js"
+    },
+    "./slider": {
+      "types": "./dist/components/slider.d.ts",
+      "import": "./dist/components/slider.js"
+    },
+    "./stepper": {
+      "types": "./dist/components/stepper.d.ts",
+      "import": "./dist/components/stepper.js"
+    },
+    "./switch": {
+      "types": "./dist/components/switch.d.ts",
+      "import": "./dist/components/switch.js"
+    },
+    "./table": {
+      "types": "./dist/components/table.d.ts",
+      "import": "./dist/components/table.js"
+    },
+    "./tabs": {
+      "types": "./dist/components/tabs.d.ts",
+      "import": "./dist/components/tabs.js"
+    },
+    "./text": {
+      "types": "./dist/components/text.d.ts",
+      "import": "./dist/components/text.js"
+    },
+    "./textarea": {
+      "types": "./dist/components/textarea.d.ts",
+      "import": "./dist/components/textarea.js"
+    },
+    "./time-picker": {
+      "types": "./dist/components/time-picker.d.ts",
+      "import": "./dist/components/time-picker.js"
+    },
+    "./toast": {
+      "types": "./dist/components/toast.d.ts",
+      "import": "./dist/components/toast.js"
+    },
+    "./tooltip": {
+      "types": "./dist/components/tooltip.d.ts",
+      "import": "./dist/components/tooltip.js"
+    },
+    "./tree-view": {
+      "types": "./dist/components/tree-view.d.ts",
+      "import": "./dist/components/tree-view.js"
+    },
+    "./visually-hidden": {
+      "types": "./dist/components/visually-hidden.d.ts",
+      "import": "./dist/components/visually-hidden.js"
     }
   },
   "unpkg": "./dist/compa11y.iife.js",
@@ -132,7 +204,7 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && vite build --config vite.config.iife.ts",
     "dev": "vite build --watch",
     "test": "vitest run",
     "test:watch": "vitest",
